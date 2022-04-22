@@ -1,0 +1,8 @@
+{
+  "volar.takeOverMode.enabled": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  }
+}
