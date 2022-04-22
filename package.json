@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "lint:fix": "eslint --ext .js,.vue --ignore-path .gitignore --fix src && stylelint \"**/*.{css,vue}\" --fix",
+    "lint:fix": "eslint --ext .js,.vue --ignore-path .gitignore --fix src && stylelint \"**/*.{css,vue}\" --fix && prettier --write \"./**/*.{json,md}\"",
     "preview": "vite preview"
   },
   "dependencies": {
