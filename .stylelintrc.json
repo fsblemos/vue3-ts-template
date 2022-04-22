@@ -1,0 +1,14 @@
+{
+  "plugins": ["stylelint-prettier"],
+  "extends": ["stylelint-config-recommended", "stylelint-prettier/recommended"],
+  "ignoreFiles": ["dist/**/*", "coverage/**/*"],
+  "rules": {
+    "prettier/prettier": true
+  },
+  "overrides": [
+    {
+      "files": ["**/*.vue"],
+      "customSyntax": "postcss-html"
+    }
+  ]
+}
