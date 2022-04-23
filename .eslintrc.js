@@ -13,7 +13,7 @@ module.exports = {
     'plugin:prettier-vue/recommended',
     'plugin:vue/vue3-recommended',
   ],
-  ignorePatterns: 'dist',
+  ignorePatterns: ['dist', 'components.d.ts'],
   settings: {
     'prettier-vue': {
       SFCBlocks: {
